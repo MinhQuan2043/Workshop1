@@ -3,8 +3,6 @@ title: "2.1.3 Tạo Private Subnet Dual-stack"
 weight: 3
 ---
 
-# 2.1.3 Tạo Private Subnet Dual-stack
-
 1.  Trong bảng điều khiển VPC, chọn **Subnets**, sau đó **Create subnet**.
 2.  Chọn VPC bạn đã tạo (`workshop-ipv6-vpc`).
 3.  Đặt tên cho Subnet (ví dụ: `private-subnet-a`).
