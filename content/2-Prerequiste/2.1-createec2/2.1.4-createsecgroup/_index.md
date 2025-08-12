@@ -3,8 +3,6 @@ title: "2.1.4 Tạo Security Group"
 weight: 4
 ---
 
-# 2.1.4 Tạo Security Group
-
 1.  Trong bảng điều khiển EC2, chọn **Security Groups**, sau đó chọn **Create security group**.
 2.  Đặt tên cho Security Group (ví dụ: `web-sg`).
 3.  Chọn VPC của bạn (`workshop-ipv6-vpc`).
