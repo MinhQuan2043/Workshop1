@@ -3,7 +3,7 @@ title: "3.1 Khởi chạy và Kết nối EC2 Instance"
 weight: 1
 ---
 
-# 3.1 Khởi chạy và Kết nối EC2 Instance
+
 
 1.  **Khởi chạy EC2 Instance:**
     * Trong bảng điều khiển EC2, chọn **Instances**, sau đó **Launch instances**.
