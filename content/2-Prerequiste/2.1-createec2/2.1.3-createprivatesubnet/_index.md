@@ -10,6 +10,7 @@ weight: 3
 5.  Ở phần **IPv6 CIDR block**, chọn một dải địa chỉ từ dải của VPC.
 6.  Chọn **Create subnet**.
    
-  ![Subnets](/images/gen-h-Public-Private Subnet.jpg)
+ ![Subnets](/images/gen-h-Public-Private Subnet.jpg)
+
 
 
