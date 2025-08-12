@@ -15,6 +15,9 @@ weight: 3
     * **Kiểm tra bằng trình duyệt:**
         * **IPv4:** Truy cập `http://<Địa chỉ IPv4 công cộng của instance>`
         * **IPv6:** Truy cập `http://[<Địa chỉ IPv6 công cộng của instance>]`
+![Kết quả IPv4](../images/gen-h-ketqua4.jpg)
+![Kết quả IPv6](../images/gen-n-ketqua6.jpg)
+
     * **Kiểm tra bằng terminal:**
         * Sử dụng lệnh `curl` để kiểm tra kết nối với cả hai giao thức.
         * Kiểm tra IPv4:
