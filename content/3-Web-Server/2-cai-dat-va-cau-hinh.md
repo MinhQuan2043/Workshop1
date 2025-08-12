@@ -3,7 +3,6 @@ title: "3.2 Cài đặt và Cấu hình Apache"
 weight: 2
 ---
 
-
 Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau:
 
 1.  **Cập nhật và Cài đặt Apache:**
@@ -25,7 +24,7 @@ Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau
         sudo netstat -tulpn | grep httpd
         ```
     * Kết quả sẽ hiển thị Apache lắng nghe trên các địa chỉ `0.0.0.0:80` (cho IPv4) và `:::80` (cho IPv6).
-       ![Kết quả lệnh netstat trên EC2 Instance](../images/gen-h-apache.jpg)
+    ![Kết quả lệnh netstat trên EC2 Instance](../images/gen-h-apache.jpg)
 
 3.  **Cấu hình tường lửa (Security Group) cho IPv6:**
     * Truy cập **AWS EC2 console** > **Security Groups** và chọn `web-sg`.
@@ -34,4 +33,4 @@ Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau
         * **Source**: Custom IPv6, nhập `::/0`
         * **Description**: `Allow HTTP from anywhere (IPv6)`
     * Lưu lại các thay đổi.
-      ![Quy Tắc](../images/gen-n-quytac.jpg)
+    ![Quy Tắc](../images/gen-n-quytac.jpg)
