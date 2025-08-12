@@ -1,8 +1,8 @@
 ---
-title : "Giới thiệu"
-date :  "`r Sys.Date()`" 
-weight : 1 
-chapter : false
+title: "Giới thiệu"
+date: "2025-08-12T20:30:00+07:00"
+weight: 1
+chapter: true
 pre : " <b> 1. </b> "
 ---
 **Session Manager** là một chức năng nằm trong dịch vụ System Manager của AWS, Session Manager cung cấp khả năng quản lý các máy chủ một cách an toàn mà **không cần mở port SSH, không cần Bastion Host hoặc quản lý SSH key**. 
@@ -18,5 +18,6 @@ Với việc sử dụng Session Manager, bạn sẽ có được những ưu đ
 - Thời gian truy cập nhanh chóng hơn các phương thức truyền thống như SSH.
 - Hỗ trợ nhiều hệ điều hành khác nhau như Linux, Windows, MacOS.
 - Log lại được các phiên kết nối và các câu lệnh đã thực thi trong lúc kết nối tới server.
+
 
 Với những ưu điểm trên, bạn có thể sử dụng Session Manager thay vì sử dụng kỹ thuật Bastion host giúp chúng ta tiết kiệm được thời gian và chi phí khi quản lý server Bastion.
