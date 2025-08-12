@@ -1,9 +1,11 @@
 ---
-title: "3. Triển khai Web Server"
+title: "3. Web Server"
+date: "`r Sys.Date()`"
 weight: 3
 chapter: true
+pre: "<b> 3. </b> "
 ---
 
-# 3. Triển khai Web Server
+# 3. Web Server
 
-Phần này sẽ hướng dẫn chi tiết cách khởi chạy một EC2 Instance có cấu hình dual-stack và cài đặt Apache Web Server để phục vụ trang web của bạn.
+Phần này sẽ hướng dẫn cách triển khai một Web Server Dual-stack trên AWS EC2, bao gồm các bước khởi chạy, cài đặt, cấu hình và xác minh kết nối.
