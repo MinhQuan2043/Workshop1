@@ -1,6 +1,6 @@
 ---
 title : "Các bước chuẩn bị"
-date :  "`r Sys.Date()`" 
+date :  2025-08-12T20:30:00+07:00"
 weight : 2 
 chapter : false
 pre : " <b> 2. </b> "
@@ -21,3 +21,4 @@ Bạn cần tạo sẵn 1 Linux instance thuộc public subnet và 1 Window in
   - [Tạo IAM Role](2.2-createiamrole/)
 
   
+
