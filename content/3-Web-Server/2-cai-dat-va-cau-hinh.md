@@ -3,7 +3,6 @@ title: "3.2 Cài đặt và Cấu hình Apache"
 weight: 2
 ---
 
-# 3.2 Cài đặt và Cấu hình Apache
 
 Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau:
 
