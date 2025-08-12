@@ -5,7 +5,7 @@ chapter: true
 pre: "<b> 5. </b> "
 ---
 
-# 5. Dọn dẹp tài nguyên
+
 
 Để tránh phát sinh chi phí không mong muốn, bạn cần dọn dẹp tất cả các tài nguyên AWS đã tạo trong quá trình thực hiện đồ án. Các bước dọn dẹp cần được thực hiện theo thứ tự ngược lại với quá trình tạo, bắt đầu từ các tài nguyên phụ thuộc và kết thúc bằng tài nguyên chính.
 
@@ -47,3 +47,4 @@ pre: "<b> 5. </b> "
     * Trong bảng điều khiển **VPC**, chọn **Your VPCs**.
     * Chọn VPC của bạn và nhấp vào **Actions** > **Delete VPC**.
     * Nếu VPC của bạn vẫn còn tài nguyên (như Subnet, Route Table), AWS sẽ báo lỗi. Hãy đảm bảo bạn đã xóa tất cả các tài nguyên liên quan trước khi xóa VPC.
+
