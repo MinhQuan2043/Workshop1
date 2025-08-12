@@ -8,7 +8,7 @@ weight: 1
 3.  Ở phần **IPv4 CIDR block**, nhập `10.0.0.0/16`.
 4.  Ở phần **IPv6 CIDR block**, chọn **Amazon-provided IPv6 CIDR block**.
 5.  Chọn **Create VPC**.
+![Mô tả hình ảnh Tạo VPC](../images/gen-h-Tao-VPC.jpg)
 
-![Mô tả hình ảnh Tạo VPC](../images/gen-h Tạo VPC.jpg)
 
 
