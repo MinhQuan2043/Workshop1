@@ -35,3 +35,4 @@ Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau
         * **Source**: Custom IPv6, nhập `::/0`
         * **Description**: `Allow HTTP from anywhere (IPv6)`
     * Lưu lại các thay đổi.
+      ![Quy Tắc](../images/gen-n-quytac.jpg)
