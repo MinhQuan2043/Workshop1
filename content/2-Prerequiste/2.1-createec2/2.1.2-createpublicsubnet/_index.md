@@ -12,3 +12,5 @@ weight: 2
 
 ![Subnets](/images/gen-h-Public-Private Subnet.jpg)
 
+
+

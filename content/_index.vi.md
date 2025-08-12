@@ -1,6 +1,6 @@
 ---
 title : "Session Management"
-date :  "`r Sys.Date()`" 
+date :  "2025-08-12T20:30:00+07:00"
 weight : 1 
 chapter : false
 ---
@@ -20,3 +20,4 @@ chapter : false
  4. [Quản lý session logs](4-s3log/)
  5. [Port Forwarding](5-Portfwd/)
  6. [Dọn dẹp tài nguyên](6-cleanup/)
+

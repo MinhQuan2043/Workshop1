@@ -1,6 +1,6 @@
 ---
 title : "Tạo Public subnet"
-date :  "`r Sys.Date()`" 
+date :  "2025-08-12T20:30:00+07:00"
 weight : 2
 chapter : false
 pre : " <b> 2.1.2 </b> "
@@ -97,3 +97,4 @@ pre : " <b> 2.1.2 </b> "
 
 
 ![VPC](/images/2.prerequisite/016-creatertb.png)
+
