@@ -26,8 +26,7 @@ Sử dụng SSH để kết nối đến EC2 Instance và chạy các lệnh sau
         sudo netstat -tulpn | grep httpd
         ```
     * Kết quả sẽ hiển thị Apache lắng nghe trên các địa chỉ `0.0.0.0:80` (cho IPv4) và `:::80` (cho IPv6).
-       ![Kết quả lệnh netstat trên EC2 Instance](![Uploading image.png…]()
-/netstat-output.png)
+       ![Kết quả lệnh netstat trên EC2 Instance](![Uploading image.png…]()/netstat-output.png)
 
 3.  **Cấu hình tường lửa (Security Group) cho IPv6:**
     * Truy cập **AWS EC2 console** > **Security Groups** và chọn `web-sg`.
