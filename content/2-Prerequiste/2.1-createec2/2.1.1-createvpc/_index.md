@@ -3,8 +3,6 @@ title: "2.1.1 Tạo VPC Dual-stack"
 weight: 1
 ---
 
-# 2.1.1 Tạo VPC Dual-stack
-
 1.  Trong bảng điều khiển VPC, chọn **Your VPCs**, sau đó chọn **Create VPC**.
 2.  Đặt tên cho VPC (ví dụ: `workshop-ipv6-vpc`).
 3.  Ở phần **IPv4 CIDR block**, nhập `10.0.0.0/16`.
