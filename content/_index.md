@@ -3,6 +3,9 @@ title: "Giới thiệu"
 date: "`r Sys.Date()`"
 weight: 1
 chapter: true
+team:
+  - Gia Hung
+  - Thanh Hiep
 ---
 
 # 1. Giới thiệu
@@ -30,3 +33,4 @@ Hệ thống sẽ được triển khai với các thành phần chính sau:
         * `![Mô tả hình ảnh Tạo VPC](/images/gen-h-Tao-VPC.jpg)`
     * **Tạo Subnet**:
         * Tạo Public Subnet với IPv4 CIDR block `
+
