@@ -1,8 +1,8 @@
 ---
-title : "Giới thiệu"
-date : "`r Sys.Date()`"
-weight : 1
-chapter : true
+title: "Giới thiệu"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: true
 ---
 
 # 1. Giới thiệu
@@ -17,9 +17,16 @@ Hệ thống sẽ được triển khai với các thành phần chính sau:
 * **Security Group**: Quản lý truy cập vào EC2 Instance cho cả IPv4 và IPv6.
 * **Apache**: Web Server để hiển thị nội dung trang web.
 
-### Nội dung
-1.  [Giới thiệu](01-gioi-thieu/)
-2.  [Cấu hình Hạ tầng AWS](02-cau-hinh-ha-tang-aws/)
-3.  [Triển khai Web Server](03-web-server/)
-4.  [Kiểm tra và Xác nhận](04-kiem-tra-va-xac-nhan/)
-5.  [Dọn dẹp tài nguyên](05-don-dep-tai-nguyen/)
+### Nội dung chi tiết của Workshop
+
+1.  **Giới thiệu**
+    * Mục tiêu và các thành phần chính của workshop.
+    * Tạo VPC Dual-stack hỗ trợ cả IPv4 và IPv6.
+    * Tạo một cặp Public và Private Subnet trong VPC.
+    * Tạo Security Group để kiểm soát lưu lượng truy cập.
+2.  **Cấu hình Hạ tầng AWS**
+    * **Tạo VPC Dual-stack**:
+        * Tạo VPC với IPv4 CIDR block là `10.0.0.0/16` và IPv6 CIDR block được AWS cung cấp.
+        * `![Mô tả hình ảnh Tạo VPC](/images/gen-h-Tao-VPC.jpg)`
+    * **Tạo Subnet**:
+        * Tạo Public Subnet với IPv4 CIDR block `
