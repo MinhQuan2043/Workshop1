@@ -3,7 +3,7 @@ title: "3.3 Tạo file HTML và Kiểm tra Kết nối"
 weight: 3
 ---
 
-# 3.3 Tạo file HTML và Kiểm tra Kết nối
+
 
 1.  **Tạo file HTML:**
     * Sử dụng lệnh sau để tạo một file `index.html` đơn giản trong thư mục gốc của web server:
