@@ -19,7 +19,7 @@ Hệ thống sẽ được triển khai với các thành phần chính sau:
 
 ### Nội dung
 1.  [Giới thiệu](01-gioi-thieu/)
-2.  [Chuẩn bị](02-chuan-bi/)
+2.  [Cấu hình Hạ tầng AWS](02-cau-hinh-ha-tang-aws/)
 3.  [Triển khai Web Server](03-web-server/)
 4.  [Kiểm tra và Xác nhận](04-kiem-tra-va-xac-nhan/)
-5.  [Triển khai trên GitHub Pages](05-trien-khai-github-pages/)
+5.  [Dọn dẹp tài nguyên](05-don-dep-tai-nguyen/)
