@@ -10,6 +10,7 @@ weight: 2
 1.  **Xem các chỉ số mặc định:**
     * Trên bảng điều khiển EC2, chọn Instance của bạn.
     * Chuyển đến tab **Monitoring** để xem các biểu đồ về CPU Utilization, Network In/Out, Disk Read/Write.
+    
 ![Chỉ số](../images/gen-h-cấu hình.jpg)
 
 2.  **Thiết lập báo động (Alarm) cho CPU Utilization:**
