@@ -11,4 +11,5 @@ weight: 4
     * **SSH (cổng 22)**: Cho phép truy cập từ mọi địa chỉ IPv4 (`0.0.0.0/0`) và IPv6 (`::/0`).
 5.  Chọn **Create security group**.
 
-![Security Gr](../images/gen-h-Security Gr.jpg)
+![Security Gr](/images/gen-h-Security Gr.jpg)
+
