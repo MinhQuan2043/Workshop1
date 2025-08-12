@@ -25,7 +25,8 @@ Sử dụng công cụ **Apache Benchmark (ab)** để đo lường và so sánh
         ```bash
         ab -n 1000 -c 100 http://[<Địa chỉ IPv6 công cộng của bạn>]/
         ```
-
+![Kết quả](../images/ab4.jpg)
+![Kết quả](../images/ab6.jpg)
 3.  **Phân tích kết quả:**
     * Sau khi chạy xong, công cụ `ab` sẽ trả về một báo cáo chi tiết.
     * Đính kèm kết quả đầu ra của hai lệnh trên vào đồ án.
