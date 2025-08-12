@@ -15,6 +15,9 @@ weight: 1
     * Tạo hoặc chọn một **Key pair** đã có.
     * Trong phần **Security group**, chọn `web-sg`.
     * Chọn **Launch instance** để khởi chạy.
+      
+
+![cauhinh](../images/gen-h-cauhinh.jpg)
 
 2.  **Kết nối đến Instance:**
     * Sau khi Instance đã ở trạng thái **Running**, chọn Instance và nhấp vào **Connect**.
