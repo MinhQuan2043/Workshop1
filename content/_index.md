@@ -22,4 +22,5 @@ Hệ thống sẽ được triển khai với các thành phần chính sau:
 2.  [Chuẩn bị](02-chuan-bi/)
 3.  [Triển khai Web Server](03-web-server/)
 4.  [Kiểm tra và Xác nhận](04-kiem-tra-va-xac-nhan/)
-5.  [Triển khai trên GitHub Pages](05-trien-khai-github-pages/)
+5.  [Triển khai trên GitHub Pages](05-don-dep/)
+
