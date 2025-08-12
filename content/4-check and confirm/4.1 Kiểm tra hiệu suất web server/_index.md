@@ -3,7 +3,7 @@ title: "4.1 Kiểm tra hiệu suất web server"
 weight: 1
 ---
 
-# 4.1 Kiểm tra hiệu suất web server
+
 
 Sử dụng công cụ **Apache Benchmark (ab)** để đo lường và so sánh hiệu suất của web server khi truy cập bằng cả IPv4 và IPv6.
 
