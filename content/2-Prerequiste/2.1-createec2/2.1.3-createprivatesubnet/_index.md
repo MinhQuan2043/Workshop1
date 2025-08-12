@@ -1,26 +1,14 @@
 ---
-title : "Create Private Subnet"
-date : "`r Sys.Date()`"
-weight : 3
-chapter : false
-pre : " <b> 2.1.3 </b> "
+title: "2.1.3 Tạo nhóm bảo mật"
+weight: 3
 ---
 
-#### Create Private Subnet
+# 2.1.3 Tạo Security Group
 
-1. Click **Subnets**.
-   + Click **Create subnet**.
-
-![VPC](/images/2.prerequisite/017-createsubnet.png)
-
-2. At the **Create subnet** page.
-   + In the **VPC ID** section, click **Lab VPC**.
-   + In the **Subnet name** field, enter **Lab Private Subnet**.
-   + In the **Availability Zone** section, select the first Availability zone.
-   + In the field **IPv4 CIRD block** enter **10.10.2.0/24**.
-
-![VPC](/images/2.prerequisite/018-createsubnet.png)
-
-3. Scroll to the bottom of the page, click **Create subnet**.
-
-The next step is to create the necessary security groups for the lab.
+1.  Trong bảng điều khiển EC2, chọn **Security Groups**, sau đó chọn **Create security group**.
+2.  Đặt tên cho Security Group (ví dụ: `web-sg`).
+3.  Chọn VPC của bạn (`workshop-ipv6-vpc`).
+4.  Thêm các quy tắc Inbound (truy cập đến) sau:
+    * **HTTP (cổng 80)**: Cho phép truy cập từ mọi địa chỉ IPv4 (`0.0.0.0/0`) và IPv6 (`::/0`).
+    * **SSH (cổng 22)**: Cho phép truy cập từ mọi địa chỉ IPv4 (`0.0.0.0/0`) và IPv6 (`::/0`).
+5.  Chọn **Create security group**.
