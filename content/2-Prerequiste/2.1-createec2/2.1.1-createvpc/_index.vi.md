@@ -1,22 +1,18 @@
 ---
-title : "Tạo VPC "
-date :  "`r Sys.Date()`" 
-weight : 1 
+title : "Tạo VPC Dual-stack"
+date : "`r Sys.Date()`"
+weight : 1
 chapter : false
 pre : " <b> 2.1.1 </b> "
 ---
 
+#### Tạo VPC Dual-stack
 
-#### Tạo VPC **Lab VPC**
-1. Truy cập [giao diện quản trị dịch vụ VPC](https://console.aws.amazon.com/vpc/home)
-  + Click **Your VPC**.
-  + Click **Create VPC**.
+1.  Trong bảng điều khiển VPC, chọn **Your VPCs**, sau đó chọn **Create VPC**.
 
-![VPC](/images/2.prerequisite/001-createvpc.png)
+2.  Tại trang **Create VPC**.
+    * Tại mục **Name tag**, đặt tên cho VPC (ví dụ: **`workshop-ipv6-vpc`**).
+    * Tại mục **IPv4 CIDR block**, điền **`10.0.0.0/16`**.
+    * Tại mục **IPv6 CIDR block**, chọn **Amazon-provided IPv6 CIDR block**.
 
-2. Tại trang **Create VPC**.
-  + Tại mục **Name tag** điền **Lab VPC**.
-  + Tại mục **IPv4 CIDR** điền : **10.10.0.0/16**.
-  + Click **Create VPC**.
-
-![VPC](/images/2.prerequisite/002-createvpc.png)
+3.  Click **Create VPC**.
