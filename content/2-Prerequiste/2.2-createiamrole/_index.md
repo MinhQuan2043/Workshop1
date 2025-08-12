@@ -1,39 +1,15 @@
 ---
-title : "Create IAM Role"
-date : "`r Sys.Date()`"
-weight : 2
-chapter : false
-pre : " <b> 2.2 </b> "
+title: "2.2 Tạo vai trò IAM"
+weight: 2
+chapter: true
 ---
 
-### Create IAM Role
+# 2.2 Tạo vai trò IAM
 
-In this step, we will proceed to create IAM Role. In this IAM Role, the policy **AmazonSSMManagedInstanceCore** will be assigned, this is the policy that allows the EC2 server to communicate with the Session Manager.
+Vai trò IAM (IAM Role) sẽ cung cấp các quyền cần thiết cho EC2 instance để có thể làm việc với các dịch vụ AWS khác như Systems Manager mà không cần quản lý khóa truy cập.
 
-1. Go to [IAM service administration interface](https://console.aws.amazon.com/iamv2/)
-2. In the left navigation bar, click **Roles**.
-
-![role](/images/2.prerequisite/038-iamrole.png)
-
-3. Click **Create role**.
-
-![role1](/images/2.prerequisite/039-iamrole.png)
-
-4. Click **AWS service** and click **EC2**.
-  + Click **Next: Permissions**.
-
-![role1](/images/2.prerequisite/40-iamrole.png)
-
-5. In the Search box, enter **AmazonSSMManagedInstanceCore** and press Enter to search for this policy.
-  + Click the policy **AmazonSSMManagedInstanceCore**.
-  + Click **Next: Tags.**
-
-![createpolicy](/images/2.prerequisite/041-iamrole.png)
-
-6. Click **Next: Review**.
-7. Name the Role **SSM-Role** in Role Name
-  + Click **Create Role** \.
-
-![namerole](/images/2.prerequisite/042-iamrole.png)
-
-Next, we will make the connection to the EC2 servers we created with **Session Manager**.
+**Các bước tạo IAM Role:**
+1.  Trong bảng điều khiển IAM, chọn **Roles**, sau đó **Create role**.
+2.  Chọn **AWS service** và **EC2** làm trường hợp sử dụng.
+3.  Tìm và gắn các quyền cần thiết, ví dụ: `AmazonSSMManagedInstanceCore`.
+4.  Đặt tên cho vai trò và chọn **Create role**.
