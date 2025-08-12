@@ -6,7 +6,7 @@ chapter: true
 pre: "<b> 3. </b> "
 ---
 
-# 3. Web Server
+
 
 Phần này sẽ hướng dẫn cách triển khai một Web Server Dual-stack trên AWS EC2. Web server này sẽ được cấu hình để hoạt động đồng thời trên cả hai giao thức mạng **IPv4** và **IPv6**.
 
